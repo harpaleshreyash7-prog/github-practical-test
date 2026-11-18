@@ -6,3 +6,5 @@ contactBtn.addEventListener("click", function () {
         behavior: "smooth"
     });
 });
+document.getElementById("year").textContent =
+    new Date().getFullYear();
